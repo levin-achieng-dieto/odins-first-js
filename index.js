@@ -44,11 +44,6 @@ function playRound(humanChoice, computerChoice){
     }
 }
 
-// let humChoice = getHumanChoice()
-// let compChoice = getComputerChoice()
-
-// playRound(humChoice, compChoice)
-
 function playGame(){
     for (i=0; i<5; i++) {
         playRound(getComputerChoice(), getHumanChoice())
